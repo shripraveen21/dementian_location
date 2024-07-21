@@ -6,7 +6,8 @@ import decimal
 
 app = FastAPI()
 
-DATABASE_URL = "dbname=inventory_wxrq user=inventory_wxrq_user password=32T4vxi3Pe4E703IDoJFRLjLDPnVjaQ6 host=dpg-co2n9f021fec73b0s4g0-a.oregon-postgres.render.com port=5432"
+DATABASE_URL = "dbname=dementia_guardian_db user=dementia_guardian_user password=kfczNoAgGcoeXRkWntJ2JimdzoEerlnv host=dpg-cqeagspu0jms7397k2hg-a.oregon-postgres.render.com port=5432"
+
 
 # Allow CORS for all origins during development (replace "*" with your actual frontend URL in production)
 app.add_middleware(
